@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tratamientos - PUT</title>
+  <link rel="stylesheet" href="./estilos.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row mb-3">
+      <div class="col-12 text-end">
+        <a href="index.html" class="btn btn-secondary btn-lg">Volver al menú principal</a>
+      </div>
+    </div>
+    <h1>Actualizar Tratamiento</h1>
+    <form id="formTratamientoPut">
+      <label for="id">ID Tratamiento:</label>
+      <input type="number" id="id" name="id" required><br>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required><br>
+      <label for="descripcion">Descripción:</label>
+      <input type="text" id="descripcion" name="descripcion" required><br>
+      <label for="precio">Precio:</label>
+      <input type="number" id="precio" name="precio" required><br>
+      <button type="submit">Actualizar Tratamiento</button>
+    </form>
+    <div id="mensaje"></div>
+  </div>
+  <script src="./tratamientosPut.js"></script>
+</body>
+</html>

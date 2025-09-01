@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Usuarios - POST</title>
+  <link rel="stylesheet" href="./estilos.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row mb-3">
+      <div class="col-12 text-end">
+        <a href="index.html" class="btn btn-secondary btn-lg">Volver al menú principal</a>
+      </div>
+    </div>
+    <h1>Agregar Usuario</h1>
+    <form id="formUsuario">
+  <label for="nombre">Nombre:</label>
+  <input type="text" id="nombre" name="nombre" required><br>
+  <label for="password">Contraseña:</label>
+  <input type="password" id="password" name="password" required><br>
+  <label for="empleado_id">ID Empleado:</label>
+  <input type="number" id="empleado_id" name="empleado_id"><br>
+  <button type="submit">Agregar Usuario</button>
+    </form>
+    <div id="mensaje"></div>
+  </div>
+  <script src="./usuariosPost.js"></script>
+</body>
+</html>

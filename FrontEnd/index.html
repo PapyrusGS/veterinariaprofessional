@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Veterinaria - Menú Principal</title>
+  <link rel="stylesheet" href="./estilos.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Veterinaria</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <!-- Secciones -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="empleadosDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Empleados</a>
+            <ul class="dropdown-menu" aria-labelledby="empleadosDropdown">
+              <li><a class="dropdown-item" href="./empleadosGet.html">Ver empleados (GET)</a></li>
+              <li><a class="dropdown-item" href="./empleadosPost.html">Agregar empleado (POST)</a></li>
+              <li><a class="dropdown-item" href="./empleadosPut.html">Editar empleado (PUT)</a></li>
+              <li><a class="dropdown-item" href="./empleadosDelete.html">Eliminar empleado (DELETE)</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="clientesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Clientes</a>
+            <ul class="dropdown-menu" aria-labelledby="clientesDropdown">
+              <li><a class="dropdown-item" href="./clientesGet.html">Ver clientes (GET)</a></li>
+              <li><a class="dropdown-item" href="./clientesPost.html">Agregar cliente (POST)</a></li>
+              <li><a class="dropdown-item" href="./clientesPut.html">Editar cliente (PUT)</a></li>
+              <li><a class="dropdown-item" href="./clientesDelete.html">Eliminar cliente (DELETE)</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="mascotasDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Mascotas</a>
+            <ul class="dropdown-menu" aria-labelledby="mascotasDropdown">
+              <li><a class="dropdown-item" href="./mascotasGet.html">Ver mascotas (GET)</a></li>
+              <li><a class="dropdown-item" href="./mascotasPost.html">Agregar mascota (POST)</a></li>
+              <li><a class="dropdown-item" href="./mascotasPut.html">Editar mascota (PUT)</a></li>
+              <li><a class="dropdown-item" href="./mascotasDelete.html">Eliminar mascota (DELETE)</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="citasDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Citas</a>
+            <ul class="dropdown-menu" aria-labelledby="citasDropdown">
+              <li><a class="dropdown-item" href="./citasGet.html">Ver citas (GET)</a></li>
+              <li><a class="dropdown-item" href="./citasPost.html">Agregar cita (POST)</a></li>
+              <li><a class="dropdown-item" href="./citasPut.html">Editar cita (PUT)</a></li>
+              <li><a class="dropdown-item" href="./citasDelete.html">Eliminar cita (DELETE)</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="consultasDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Consultas</a>
+            <ul class="dropdown-menu" aria-labelledby="consultasDropdown">
+              <li><a class="dropdown-item" href="./consultasGet.html">Ver consultas (GET)</a></li>
+              <li><a class="dropdown-item" href="./consultasPost.html">Agregar consulta (POST)</a></li>
+              <li><a class="dropdown-item" href="./consultasPut.html">Editar consulta (PUT)</a></li>
+              <li><a class="dropdown-item" href="./consultasDelete.html">Eliminar consulta (DELETE)</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="tratamientosDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tratamientos</a>
+            <ul class="dropdown-menu" aria-labelledby="tratamientosDropdown">
+              <li><a class="dropdown-item" href="./tratamientosGet.html">Ver tratamientos (GET)</a></li>
+              <li><a class="dropdown-item" href="./tratamientosPost.html">Agregar tratamiento (POST)</a></li>
+              <li><a class="dropdown-item" href="./tratamientosPut.html">Editar tratamiento (PUT)</a></li>
+              <li><a class="dropdown-item" href="./tratamientosDelete.html">Eliminar tratamiento (DELETE)</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="rolesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Roles</a>
+            <ul class="dropdown-menu" aria-labelledby="rolesDropdown">
+              <li><a class="dropdown-item" href="./rolesGet.html">Ver roles (GET)</a></li>
+              <li><a class="dropdown-item" href="./rolesPost.html">Agregar rol (POST)</a></li>
+              <li><a class="dropdown-item" href="./rolesPut.html">Editar rol (PUT)</a></li>
+              <li><a class="dropdown-item" href="./rolesDelete.html">Eliminar rol (DELETE)</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="usuarioRolesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Usuario Roles</a>
+            <ul class="dropdown-menu" aria-labelledby="usuarioRolesDropdown">
+              <li><a class="dropdown-item" href="./usuario_rolesGet.html">Ver usuario roles (GET)</a></li>
+              <li><a class="dropdown-item" href="./usuario_rolesPost.html">Agregar usuario rol (POST)</a></li>
+              <li><a class="dropdown-item" href="./usuario_rolesPut.html">Editar usuario rol (PUT)</a></li>
+              <li><a class="dropdown-item" href="./usuario_rolesDelete.html">Eliminar usuario rol (DELETE)</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="usuariosDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Usuarios</a>
+            <ul class="dropdown-menu" aria-labelledby="usuariosDropdown">
+              <li><a class="dropdown-item" href="./usuariosGet.html">Ver usuarios (GET)</a></li>
+              <li><a class="dropdown-item" href="./usuariosPost.html">Agregar usuario (POST)</a></li>
+              <li><a class="dropdown-item" href="./usuariosPut.html">Editar usuario (PUT)</a></li>
+              <li><a class="dropdown-item" href="./usuariosDelete.html">Eliminar usuario (DELETE)</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container mt-5">
+    <h1>Bienvenido al sistema de gestión veterinaria</h1>
+    <div class="row justify-content-center mt-4">
+      <div class="col-md-5 mb-4">
+        <div class="card shadow-sm">
+          <div class="card-body text-center">
+            <h5 class="card-title">Mascotas agregadas recientemente</h5>
+            <p class="card-text">Consulta las mascotas registradas de más reciente a más antiguo.</p>
+            <a href="./mascotasRecientes.html" class="btn btn-primary" target="_blank">Ver mascotas recientes</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-5 mb-4">
+        <div class="card shadow-sm">
+          <div class="card-body text-center">
+            <h5 class="card-title">Mascotas y sus clientes</h5>
+            <p class="card-text">Consulta los datos de las mascotas junto con los datos del cliente enlazado.</p>
+            <a href="./mascotasConCliente.html" class="btn btn-success" target="_blank">Ver mascotas y clientes</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="text-center">Selecciona una sección en el menú para acceder a las funciones CRUD de cada entidad.</p>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

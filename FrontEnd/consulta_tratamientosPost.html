@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Consulta Tratamientos - POST</title>
+  <link rel="stylesheet" href="./estilos.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row mb-3">
+      <div class="col-12 text-end">
+        <a href="index.html" class="btn btn-secondary btn-lg">Volver al menú principal</a>
+      </div>
+    </div>
+    <h1>Agregar Consulta Tratamiento</h1>
+    <form id="formConsultaTratamiento">
+      <input type="number" id="consulta_id" placeholder="ID Consulta" required>
+      <input type="number" id="tratamiento_id" placeholder="ID Tratamiento" required>
+      <input type="number" id="cantidad" placeholder="Cantidad" required>
+      <input type="number" id="precio" placeholder="Precio" required>
+      <button type="submit">Agregar</button>
+    </form>
+    <div id="mensaje"></div>
+  </div>
+  <script src="./consulta_tratamientosPost.js"></script>
+</body>
+</html>

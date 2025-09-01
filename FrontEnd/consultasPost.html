@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Consultas - POST</title>
+  <link rel="stylesheet" href="./estilos.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row mb-3">
+      <div class="col-12 text-end">
+        <a href="index.html" class="btn btn-secondary btn-lg">Volver al menú principal</a>
+      </div>
+    </div>
+    <h1>Agregar Consulta</h1>
+    <form id="formConsulta">
+  <input type="number" id="cita_id" placeholder="ID Cita" required>
+  <input type="text" id="diagnostico" placeholder="Diagnóstico" required>
+  <input type="text" id="observaciones" placeholder="Observaciones" required>
+  <button type="submit">Agregar</button>
+    </form>
+    <div id="mensaje"></div>
+  </div>
+  <script src="./consultasPost.js"></script>
+</body>
+</html>

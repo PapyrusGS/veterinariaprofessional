@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Citas - PUT</title>
+  <link rel="stylesheet" href="./estilos.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row mb-3">
+      <div class="col-12 text-end">
+        <a href="index.html" class="btn btn-secondary btn-lg">Volver al menú principal</a>
+      </div>
+    </div>
+    <h1>Actualizar Cita</h1>
+    <form id="formCitaPut">
+  <input type="number" id="id" placeholder="ID Cita" required>
+  <input type="number" id="mascota_id" placeholder="ID Mascota" required>
+  <input type="date" id="fecha" placeholder="Fecha" required>
+  <input type="time" id="hora" placeholder="Hora" required>
+  <input type="text" id="motivo" placeholder="Motivo" required>
+  <input type="number" id="empleado_id" placeholder="ID Empleado" required>
+  <input type="text" id="estado" placeholder="Estado" required>
+      <button type="submit">Actualizar</button>
+    </form>
+    <div id="mensaje"></div>
+  </div>
+  <script src="./citasPut.js"></script>
+</body>
+</html>

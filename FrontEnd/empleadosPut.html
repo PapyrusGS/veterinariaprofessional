@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Empleados - PUT</title>
+  <link rel="stylesheet" href="./estilos.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row mb-3">
+      <div class="col-12 text-end">
+        <a href="index.html" class="btn btn-secondary btn-lg">Volver al menú principal</a>
+      </div>
+    </div>
+    <h1>Actualizar Empleado</h1>
+    <form id="formEmpleadoPut">
+      <input type="number" id="id" placeholder="ID Empleado" required>
+      <input type="text" id="nombre" placeholder="Nombre">
+      <input type="text" id="primer_apellido" placeholder="Primer Apellido">
+      <input type="text" id="segundo_apellido" placeholder="Segundo Apellido">
+      <input type="text" id="telefono" placeholder="Teléfono">
+      <input type="text" id="direccion" placeholder="Dirección">
+      <input type="email" id="email" placeholder="Email">
+      <input type="number" id="cargo" placeholder="ID Cargo">
+      <button type="submit">Actualizar</button>
+    </form>
+    <div id="mensaje"></div>
+  </div>
+      <div class="col-12 text-end">
+        <a href="index.html" class="btn btn-secondary btn-lg">
+          <i class="bi bi-arrow-left"></i> Volver al menú principal
+        </a>
+      </div>
+    </div>
+  <script src="./empleadosPut.js"></script>
+</body>
+</html>

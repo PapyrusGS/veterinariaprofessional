@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Clientes - PUT</title>
+  <link rel="stylesheet" href="./estilos.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row mb-3">
+      <div class="col-12 text-end">
+        <a href="index.html" class="btn btn-secondary btn-lg">Volver al menú principal</a>
+      </div>
+    </div>
+    <h1>Actualizar Cliente</h1>
+    <form id="formClientePut">
+      <input type="number" id="id" placeholder="ID Cliente" required>
+      <input type="text" id="nombre" placeholder="Nombre" required>
+      <input type="text" id="primer_apellido" placeholder="Primer Apellido">
+      <input type="text" id="segundo_apellido" placeholder="Segundo Apellido">
+      <input type="text" id="telefono" placeholder="Teléfono">
+      <input type="text" id="direccion" placeholder="Dirección">
+      <input type="email" id="email" placeholder="Email">
+      <button type="submit">Actualizar</button>
+    </form>
+    <div id="mensaje"></div>
+  </div>
+  <script src="./clientesPut.js"></script>
+</body>
+</html>

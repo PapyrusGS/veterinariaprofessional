@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Clientes - POST</title>
+  <link rel="stylesheet" href="./estilos.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row mb-3">
+      <div class="col-12 text-end">
+        <a href="index.html" class="btn btn-secondary btn-lg">Volver al menú principal</a>
+      </div>
+    </div>
+    <h1>Agregar Cliente</h1>
+    <form id="formCliente">
+      <input type="text" id="nombre" placeholder="Nombre" required>
+      <input type="text" id="primer_apellido" placeholder="Primer Apellido" required>
+      <input type="text" id="segundo_apellido" placeholder="Segundo Apellido" required>
+      <input type="text" id="telefono" placeholder="Teléfono" required>
+      <input type="text" id="direccion" placeholder="Dirección" required>
+      <input type="email" id="email" placeholder="Email" required>
+      <button type="submit">Agregar</button>
+    </form>
+    <div id="mensaje"></div>
+  </div>
+  <script src="./clientesPost.js"></script>
+</body>
+</html>
